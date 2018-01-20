@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Lemon",
+  "description": "This extension allows a user to have one central shopping cart.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "lemon.png",
+    "default_popup": "popup.html",
+    "default_title": "TRY!"
+  },
+  // "page_action": {
+  //   "default_icon": "lemon.png",
+  //   "default_popup": "popup.html",
+  //   "default_title": "Click Me!"
+  // } ,
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

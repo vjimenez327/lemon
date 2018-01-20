@@ -1,0 +1,33 @@
+body {
+  margin: 45px;
+  white-space: nowrap;
+  background-color: #ccff99;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.title {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #808B96;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 2px 6px 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative;
+}
+
+.titleFont {
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
